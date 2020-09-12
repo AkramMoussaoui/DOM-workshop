@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container mb-4">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col"> </th>
+                                <th scope="col">Product</th>
+                                <th scope="col">Available</th>
+                                <th scope="col" class="text-center">Quantity</th>
+                                <th scope="col" class="text-right">Price</th>
+                                <th> </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                <td>Product Name Dada</td>
+                                <td>In stock</td>
+                                <td style="display: flex;"><button class="btn btn-sm btn-primary btn-plus">+</button>
+                                    <input class="form-control" type="text" value="1" /><button
+                                        class="btn btn-sm btn-primary btn-minus">-</button>
+                                </td>
+                                <td class="text-right">124,90 €</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button><i class="fa fa-heart"></i> </td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                <td>Product Name Toto</td>
+                                <td>In stock</td>
+                                <td style="display: flex;"><button
+                                        class="btn btn-sm btn-primary btn-plus">+</button><input class="form-control"
+                                        type="text" value="1" /><button
+                                        class="btn btn-sm btn-primary btn-minus">-</button>
+                                </td>
+                                <td class="text-right">33,90 €</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button><i class="fa fa-heart"></i> </td>
+                            </tr>
+                            <tr>
+                                <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                <td>Product Name Titi</td>
+                                <td>In stock</td>
+                                <td style="display: flex;">
+                                    <button class="btn btn-sm btn-primary btn-plus">+</button>
+                                    <input class="form-control" type="text" value="1" />
+                                    <button class="btn btn-sm btn-primary btn-minus">-</button>
+                                </td>
+                                <td class="text-right">70,00 €</td>
+                                <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i>
+                                    </button><i class="fa fa-heart"></i> </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td><strong>Total</strong></td>
+                                <td class="text-right"><strong id="total">228,80 €</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="./script.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
