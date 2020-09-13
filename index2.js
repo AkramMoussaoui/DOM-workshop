@@ -56,6 +56,8 @@ function changeTotal(qty, price, type) {
   }
 }
 
-function noCurrency(price) {
-  return parseFloat(price.split(" ")[0].replace(",", "."));
-}
+// function noCurrency(price) {
+//   return parseFloat(price.split(" ")[0].replace(",", "."));
+// }
+
+const noCurrency = (price) => parseFloat(price.split(" ")[0].replace(",", "."));
